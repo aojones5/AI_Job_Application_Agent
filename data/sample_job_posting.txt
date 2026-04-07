@@ -1,0 +1,9 @@
+Paste a job description here.
+
+Recommended fields to capture:
+- company
+- job title
+- responsibilities
+- required qualifications
+- preferred qualifications
+- keywords

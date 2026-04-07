@@ -1,0 +1,277 @@
+{
+  "name": "Ava Jones",
+  "contact": {
+    "location": "Havertown, PA",
+    "phone": "269-720-0356",
+    "email": "ajones70@villanova.edu",
+    "linkedin": "www.linkedin.com/in/ava-jones-51966a262",
+    "github": "https://github.com/aojones5"
+  },
+  "education": [
+    {
+      "institution": "Villanova University - College of Engineering",
+      "degree": "Bachelor of Science in Computer Engineering",
+      "minors": ["Cybersecurity", "Computer Science"],
+      "location": "Villanova, PA",
+      "graduation": "May 2026",
+      "gpa": "3.86",
+      "awards": ["Dean's List Fall 2022 - Fall 2025"]
+    },
+    {
+      "institution": "Monsignor Bonner & Archbishop Prendergast High School",
+      "location": "Drexel Hill, PA",
+      "graduation": "June 2022",
+      "awards": ["Valedictorian", "Archdiocesan Scholar", "National Honors Society"]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "CompTIA Security+",
+      "status": "in progress"
+    },
+    {
+      "name": "Microsoft Security Essentials Professional Certificate",
+      "issuer": "Microsoft",
+      "date": "Jul 2025"
+    },
+    {
+      "name": "Artificial Intelligence for Cybersecurity",
+      "issuer": "LinkedIn Learning",
+      "date": "Jul 2025"
+    },
+    {
+      "name": "Cybersecurity Careers and Certifications",
+      "issuer": "LinkedIn Learning",
+      "date": "Jul 2025"
+    }
+  ],
+  "experiences": [
+    {
+      "category": "teaching",
+      "title": "Teaching Assistant",
+      "organization": "Villanova University",
+      "subtitle": "ECE 1205: ECE Freshman Projects",
+      "location": "Villanova, PA",
+      "start": "Spring 2026",
+      "end": "Present",
+      "skills": ["MATLAB", "mentoring", "technical communication", "hardware debugging", "embedded systems", "soldering"],
+      "bullets": [
+        {
+          "text": "Mentor 20 first year ECE engineering students in applied MATLAB and core ECE concepts",
+          "tags": ["teaching", "MATLAB", "mentoring", "engineering"]
+        },
+        {
+          "text": "Provide hands-on technical guidance in lab environments including soldering (through-hole and SMD), embedded systems, and hardware debugging",
+          "tags": ["hardware", "embedded systems", "debugging", "lab support"]
+        },
+        {
+          "text": "Assist students in troubleshooting design challenges related to Sumobot projects and antenna builds",
+          "tags": ["troubleshooting", "project support", "RF basics"]
+        },
+        {
+          "text": "Strengthen student understanding of engineering workflows, problem-solving, and technical communication",
+          "tags": ["communication", "workflows", "problem-solving"]
+        }
+      ]
+    },
+    {
+      "category": "project",
+      "title": "QuantEval: AI Quantization Evaluation Framework",
+      "organization": "Villanova University",
+      "location": "Villanova, PA",
+      "start": "Spring 2025",
+      "end": "Spring 2026",
+      "skills": ["Python", "PyTorch", "AI", "quantization", "PTQ", "QAT", "INT8", "FP8", "benchmarking", "GitHub"],
+      "bullets": [
+        {
+          "text": "Architected and developed a modular framework to evaluate trade-offs between FP32 and quantized models across accuracy, latency, and memory usage",
+          "tags": ["architecture", "framework design", "quantization", "evaluation"]
+        },
+        {
+          "text": "Implemented automated benchmarking pipelines for PTQ, QAT, INT8, and FP8 quantization techniques on CNN and Transformer architectures",
+          "tags": ["automation", "benchmarking", "CNN", "Transformer", "PyTorch"]
+        },
+        {
+          "text": "Designed system workflows to support both preloaded benchmark models and user-uploaded architectures for flexible evaluation",
+          "tags": ["workflow design", "user-centered design", "ML systems"]
+        },
+        {
+          "text": "Conducted repeated hardware-level inference sampling to analyze performance on CPU environments",
+          "tags": ["performance testing", "CPU inference", "measurement"]
+        },
+        {
+          "text": "Evaluated accuracy degradation and model efficiency, demonstrating minimal accuracy loss (~<1%) while improving model size and inference performance",
+          "tags": ["results", "accuracy", "latency", "memory"]
+        },
+        {
+          "text": "Collaborated in a 4-person engineering team using GitHub version control, code reviews, and structured sprint planning",
+          "tags": ["teamwork", "GitHub", "agile", "code review"]
+        }
+      ]
+    },
+    {
+      "category": "project",
+      "title": "SipSnapApp (Android Mobile Application)",
+      "organization": "Villanova University",
+      "location": "Villanova, PA",
+      "start": "Fall 2025",
+      "end": "Fall 2025",
+      "skills": ["Java", "Kotlin", "Android Studio", "Firebase", "RoomDB", "SQLite", "XML", "Google Location Services API"],
+      "bullets": [
+        {
+          "text": "Engineered a full-stack Android mobile application using Java/Kotlin and Android Studio for social drink sharing and discovery",
+          "tags": ["mobile development", "Android", "full-stack"]
+        },
+        {
+          "text": "Implemented Firebase Authentication and cloud data storage for secure login, user management, and real-time data updates",
+          "tags": ["Firebase", "authentication", "backend", "cloud"]
+        },
+        {
+          "text": "Designed and integrated a local persistence layer using RoomDB (SQLite) to support offline-first functionality and bidirectional data synchronization",
+          "tags": ["SQLite", "RoomDB", "offline-first", "data sync"]
+        },
+        {
+          "text": "Utilized Google Location Services API to enable venue-based check-ins and geolocation tagging for user-generated drink posts",
+          "tags": ["API integration", "location services", "geolocation"]
+        },
+        {
+          "text": "Developed core application features including social connections, drink reviews, post creation, and location-based discovery",
+          "tags": ["feature development", "product engineering"]
+        },
+        {
+          "text": "Structured and designed responsive UI components using XML layouts, optimizing navigation and overall user experience",
+          "tags": ["UI", "UX", "XML", "Android UI"]
+        }
+      ]
+    },
+    {
+      "category": "project",
+      "title": "AI Phishing Email Detector",
+      "organization": "Villanova University",
+      "location": "Villanova, PA",
+      "start": "Spring 2025",
+      "end": "Spring 2025",
+      "skills": ["Python", "PyTorch", "machine learning", "classification", "data preprocessing", "neural networks"],
+      "bullets": [
+        {
+          "text": "Designed and deployed a PyTorch-based neural network pipeline for phishing email classification using 6,000+ labeled samples",
+          "tags": ["PyTorch", "classification", "pipeline", "cybersecurity"]
+        },
+        {
+          "text": "Engineered preprocessing pipeline including text normalization, feature extraction, and stratified dataset splitting",
+          "tags": ["preprocessing", "feature extraction", "dataset management"]
+        },
+        {
+          "text": "Optimized neural network architecture and hyperparameters to achieve 99.36% test accuracy",
+          "tags": ["optimization", "accuracy", "model tuning"]
+        },
+        {
+          "text": "Evaluated model performance with a focus on minimizing false positives in real-world detection scenarios",
+          "tags": ["evaluation", "false positives", "real-world performance"]
+        },
+        {
+          "text": "Applied supervised learning techniques and backpropagation to improve classification reliability and robustness",
+          "tags": ["supervised learning", "backpropagation", "robustness"]
+        }
+      ]
+    },
+    {
+      "category": "work",
+      "title": "Intern",
+      "organization": "CMT Services Group",
+      "location": "West Conshohocken, PA",
+      "start": "June 2025",
+      "end": "Present",
+      "skills": ["QESTLab", "quality assurance", "documentation", "reporting", "project coordination"],
+      "bullets": [
+        {
+          "text": "Process and validate daily concrete, masonry, and grout testing data using QESTLab software for quality assurance",
+          "tags": ["QA", "data validation", "construction testing"]
+        },
+        {
+          "text": "Draft and finalize detailed field reports and grout documentation in accordance with project specifications",
+          "tags": ["report writing", "documentation", "compliance"]
+        },
+        {
+          "text": "Coordinate with inspectors and project managers to ensure accuracy, compliance, and organized documentation workflows",
+          "tags": ["coordination", "accuracy", "workflow"]
+        },
+        {
+          "text": "Support inspection processes by maintaining structured records for project tracking and reporting",
+          "tags": ["records management", "tracking", "reporting"]
+        }
+      ]
+    },
+    {
+      "category": "work",
+      "title": "Pet Walker/Sitter",
+      "organization": "Rover",
+      "location": "Delaware County, PA",
+      "start": "August 2023",
+      "end": "Present",
+      "skills": ["time management", "client communication", "scheduling", "customer service"],
+      "bullets": [
+        {
+          "text": "Operate a self-managed service business, demonstrating time management, client communication, and reliability",
+          "tags": ["entrepreneurship", "customer service", "reliability"]
+        },
+        {
+          "text": "Manage scheduling, customer relationships, and service delivery independently",
+          "tags": ["scheduling", "client management", "independence"]
+        }
+      ]
+    },
+    {
+      "category": "work",
+      "title": "Machine Guided Circuit Optimization Team",
+      "organization": "INNOVATE by L3Harris",
+      "location": "Villanova, PA",
+      "start": "June 2024",
+      "end": "July 2024",
+      "skills": ["machine learning", "EDA", "logic synthesis", "digital circuits", "team collaboration"],
+      "bullets": [
+        {
+          "text": "Developed and trained a neural network model to optimize circuit synthesis, integrating machine learning with electronic design automation workflows",
+          "tags": ["ML", "EDA", "circuits", "optimization"]
+        },
+        {
+          "text": "Applied ABC logic synthesis tools to improve efficiency and performance of integrated circuit designs",
+          "tags": ["logic synthesis", "IC design", "performance"]
+        },
+        {
+          "text": "Collaborated in a 4-person team to design and evaluate ML-driven optimization strategies for digital circuits",
+          "tags": ["teamwork", "evaluation", "digital circuits"]
+        },
+        {
+          "text": "Contributed to bridging AI techniques with hardware-level engineering applications",
+          "tags": ["AI", "hardware", "applied engineering"]
+        }
+      ]
+    }
+  ],
+  "technical_skills": {
+    "programming_and_systems": ["Python", "C/C++", "Java", "SQL", "VHDL", "ARM Assembly", "MIPS"],
+    "ai_machine_learning": ["PyTorch", "neural networks", "quantization (PTQ, QAT)", "model optimization", "supervised learning", "backpropagation", "data preprocessing"],
+    "mobile_and_backend": ["Android Studio", "Firebase", "RoomDB (SQLite)", "REST-style data handling"],
+    "systems_and_tools": ["Git", "GitHub", "Linux", "MATLAB", "Simulink", "ModelSim", "VirtualBox", "LaTeX (Overleaf)"],
+    "it_and_customer_support": ["Windows 10/11 troubleshooting", "macOS support", "Microsoft 365 support", "end-user technical assistance", "documentation", "customer communication", "ticket-style issue tracking workflows"],
+    "collaboration_platforms": ["Microsoft Teams", "Zoom", "Google Meet", "GitHub"],
+    "computer_engineering": ["Computer Architecture", "Operating Systems", "Digital Logic and System Design", "Signal Processing", "Database Systems"],
+    "cybersecurity": ["network security", "cryptography (RSA, AES, hashing)", "penetration testing", "digital forensics", "secure coding", "Wireshark", "Nmap"]
+  },
+  "leadership_and_activities": [
+    {
+      "title": "Handshake AI Fellowship",
+      "role": "Fellow",
+      "start": "October 2025",
+      "end": "Present",
+      "details": ["Selected for a competitive national program supporting students exploring AI and data-driven innovation."]
+    },
+    {
+      "title": "Villanova Phi Sigma Pi: Honor's Society",
+      "role": "Spirit Chair",
+      "start": "August 2024",
+      "end": "May 2025"
+    }
+  ]
+}
