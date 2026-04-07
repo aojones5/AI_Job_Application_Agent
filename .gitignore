@@ -8,3 +8,5 @@ build/
 output/
 *.pdf
 *.docx
+.venv/
+outputs/
